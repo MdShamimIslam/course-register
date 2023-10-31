@@ -3,7 +3,7 @@ import Course from './Course/Course';
 
 
 
-const Courses = () => {
+const Courses = ({handleAddCourseBox}) => {
     const [courses,setCourses] = useState([]);
 
     useEffect(()=>{
@@ -19,6 +19,7 @@ const Courses = () => {
                     courses.map(course => <Course
                         key={course.id}
                         course={course}
+                        handleAddCourseBox={handleAddCourseBox}
                     ></Course>)
                 }
             </div>

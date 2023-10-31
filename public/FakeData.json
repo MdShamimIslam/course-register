@@ -4,15 +4,15 @@
       "img": "https://i.ibb.co/ygctQK0/istockphoto-537331500-170667a.jpg",
       "course_name": "Introduction to Programming",
       "details": "A beginner-friendly course to learn the fundamentals of programming and coding.",
-      "price": "120",
+      "price": 120,
       "credit": 9
     },
     {
       "id": 2,
-      "img": "https://i.ibb.co/Pm2xGhC/enter.jpg",
+      "img": "https://i.ibb.co/wNFYM0V/COURSE-TITLE.jpg",
       "course_name": "Entrepreneurship Essentials",
       "details": "Learn the key concepts of starting and running a successful business.",
-      "price": "149",
+      "price": 149,
       "credit": 4
     },
     {
@@ -20,7 +20,7 @@
       "img": "https://i.ibb.co/GkKPnwW/science.jpg",
       "course_name": "Data Science for Beginners",
       "details": "Explore data analysis and visualization using popular tools and languages.",
-      "price": "115",
+      "price": 115,
       "credit": 8
     },
     {
@@ -28,7 +28,7 @@
       "img": "https://i.ibb.co/6sSPk3M/graphics.png",
       "course_name": "Graphic Design Fundamentals",
       "details": "Unlock your creativity and design stunning graphics and visuals.",
-      "price": "96",
+      "price": 96,
       "credit": 3
     },
     {
@@ -36,7 +36,7 @@
       "img": "https://i.ibb.co/F5QJgbw/marketting.jpg",
       "course_name": "Digital Marketing Mastery",
       "details": "Learn how to promote products and services using online marketing strategies.",
-      "price": "135",
+      "price": 135,
       "credit": 6
     },
     {
@@ -44,7 +44,7 @@
       "img": "https://i.ibb.co/FXrKvWX/machine.jpg",
       "course_name": "Machine Learning Basics",
       "details": "Dive into the world of machine learning and predictive analytics.",
-      "price": "214",
+      "price": 214,
       "credit": 8
     },
     {
@@ -52,7 +52,7 @@
       "img": "https://i.ibb.co/KrRvk0W/business.jpg",
       "course_name": "Business Ethics and Leadership",
       "details": "Develop leadership skills while understanding ethical decision-making in business.",
-      "price": "178",
+      "price": 178,
       "credit": 5
     },
     {
@@ -60,7 +60,7 @@
       "img": "https://i.ibb.co/ZG7jhck/photo-grapher.jpg",
       "course_name": "Photography Fundamentals",
       "details": "Capture the world around you with a strong foundation in photography.",
-      "price": "69",
+      "price": 69,
       "credit": 2
     },
     {
@@ -68,7 +68,7 @@
       "img": "https://i.ibb.co/1JW7gZV/web.jpg",
       "course_name": "Web Development Essentials",
       "details": "Learn how to create dynamic and responsive websites from scratch.",
-      "price": "125",
+      "price": 125,
       "credit": 10
     }
   ]

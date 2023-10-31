@@ -1,16 +1,16 @@
 import React from "react";
 
-const Course = ({ course }) => {
+const Course = ({ course,handleAddCourseBox }) => {
   const { img, course_name, details, price, credit } = course;
   return (
     <div className="card  bg-base-200 shadow-xl">
-      <img className="h-[250px] rounded-lg" src={img} alt="cover-image" />
+      <img className="h-[200px] rounded-lg" src={img} alt="cover-image" />
       <div className="card-body">
         <h2 className="card-title">{course_name}</h2>
         <p>{details}</p>
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               width="14"
               height="16"
@@ -24,11 +24,11 @@ const Course = ({ course }) => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
-            </svg>
+            </svg> */}
             <p className="ml-3 font-semibold">Price : ${price}</p>
           </div>
           <div className="flex items-center">
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -42,12 +42,16 @@ const Course = ({ course }) => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
-            </svg>
+            </svg> */}
+            
             <p className="ml-3 font-semibold">Credit : {credit}hr</p>
           </div>
         </div>
         <div className="card-actions ">
-          <button className="btn btn-primary w-full">Select</button>
+          <button
+          onClick={()=>handleAddCourseBox(credit,price,course)}
+           className="btn btn-primary w-full"
+           >Select</button>
         </div>
       </div>
     </div>
