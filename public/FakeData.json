@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "img": "https://i.ibb.co/S71qHDD/program.png",
+      "img": "https://i.ibb.co/ygctQK0/istockphoto-537331500-170667a.jpg",
       "course_name": "Introduction to Programming",
       "details": "A beginner-friendly course to learn the fundamentals of programming and coding.",
       "price": "120",
@@ -9,11 +9,11 @@
     },
     {
       "id": 2,
-      "img": "https://i.ibb.co/1JW7gZV/web.jpg",
-      "course_name": "Web Development Essentials",
-      "details": "Learn how to create dynamic and responsive websites from scratch.",
-      "price": "125",
-      "credit": 10
+      "img": "https://i.ibb.co/Pm2xGhC/enter.jpg",
+      "course_name": "Entrepreneurship Essentials",
+      "details": "Learn the key concepts of starting and running a successful business.",
+      "price": "149",
+      "credit": 4
     },
     {
       "id": 3,
@@ -65,10 +65,10 @@
     },
     {
       "id": 9,
-      "img": "https://i.ibb.co/Pm2xGhC/enter.jpg",
-      "course_name": "Entrepreneurship Essentials",
-      "details": "Learn the key concepts of starting and running a successful business.",
-      "price": "149",
-      "credit": 4
+      "img": "https://i.ibb.co/1JW7gZV/web.jpg",
+      "course_name": "Web Development Essentials",
+      "details": "Learn how to create dynamic and responsive websites from scratch.",
+      "price": "125",
+      "credit": 10
     }
   ]
