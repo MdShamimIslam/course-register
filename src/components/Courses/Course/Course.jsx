@@ -3,7 +3,7 @@ import React from "react";
 const Course = ({ course }) => {
   const { img, course_name, details, price, credit } = course;
   return (
-    <div className="card  bg-base-100 shadow-xl">
+    <div className="card  bg-base-200 shadow-xl">
       <img className="h-[250px] rounded-lg" src={img} alt="cover-image" />
       <div className="card-body">
         <h2 className="card-title">{course_name}</h2>
