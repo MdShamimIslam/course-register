@@ -8,9 +8,9 @@ function App() {
   const [price,setPrice] = useState(0);
   const [courseName,setCourseName] = useState([]);
 
-  const handleAddCourseBox =(time,price2,course)=>{
-    setHour(hour + time);
-    setPrice(price + price2);
+  const handleAddCourseBox =(course)=>{
+    setHour(hour + course.credit);
+    setPrice(price + course.price);
     const newCourseName = [...courseName,course];
     setCourseName(newCourseName)
   }
