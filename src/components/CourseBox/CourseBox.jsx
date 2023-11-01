@@ -5,7 +5,7 @@ const CourseBox = ({ hour, price, courseName }) => {
   return (
     <div className="lg:w-1/4 w-2/3 mx-auto bg-slate-300 h-[485px] p-4 lg:ml-6 ml-16 mt-4 rounded-lg">
       <h2 className="text-xl font-semibold">
-        Create our remaining <span className="text-red-600">{remainingHr}</span>{" "}
+        Create our remaining <span className="text-red-600">{remainingHr} </span>
         hours
       </h2>
       <br />
